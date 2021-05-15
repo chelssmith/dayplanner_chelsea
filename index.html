@@ -8,14 +8,14 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <title>Day Planner</title>
 </head>
 
-
+<!--header-->
 <header class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">Work Day Scheduler</h1>
@@ -24,52 +24,72 @@
     </div>
 </header>
 
+<!--timeblocks-->
 <main>
     <div class="container">
         <div class="row">
-            <div class="col" id="hour">9AM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="9">9AM</div>
+            <div class="col-8 slot"></div>
+            <p id="add-task"></p>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">10AM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="10">10AM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">11AM</div>
-            <div class="col-8" id ="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="11">11AM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">12PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="12">12PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">1PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="1">1PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col">2PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="2">2PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">3PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="3">3PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">4PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="4">4PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
         <div class="row">
-            <div class="col" id="hour">5PM</div>
-            <div class="col-8" id="task"></div>
-            <div class="col"><i class="far fa-save"></i></div>
+            <div class="col hour" id="5">5PM</div>
+            <div class="col-8 slot" id="task"></div>
+            <div class="col save">
+                <button><i class="far fa-save"></i>
+            </div></button>
         </div>
     </div>
 </main>
