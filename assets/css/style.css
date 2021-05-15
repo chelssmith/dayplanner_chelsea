@@ -1,4 +1,22 @@
-.container{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(231, 187, 187);
+}
+
+header{
     text-align: center;
 }
 
+.row{
+    width: 100%;
+    background-color: rgb(144, 163, 182);
+    padding: 15px;
+    margin: 6px 0;
+
+}
