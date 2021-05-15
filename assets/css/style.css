@@ -17,6 +17,12 @@ header{
     width: 100%;
     background-color: rgb(144, 163, 182);
     padding: 15px;
-    margin: 6px 0;
+    margin: 5px 0 ;
+}
 
+.hour{
+    float: left;
+}
+.col-8{
+    text-align: center;
 }
